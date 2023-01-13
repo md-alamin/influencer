@@ -74,7 +74,7 @@ ul {
 
 .banner-head {
     font-weight: 700;
-    font-size: 52px;
+    font-size: 50px;
 }
 
 .banner-head span {
@@ -88,8 +88,7 @@ ul {
 }
 
 .primary-btn {
-    width: 196px;
-    height: 44px;
+    padding: 10px 24px;
     background: #e02c6d;
     border-radius: 41px;
     font-weight: 700;
@@ -114,6 +113,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin: 100px 165px;
+    justify-items: center;
 }
 
 .client {
@@ -121,3 +121,137 @@ ul {
 }
 
 /* Popular Collection */
+.popular-collections {
+    margin: 0 190px;
+}
+
+.popular-heading {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collectoins {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.collection {
+    padding: 15px;
+}
+
+.see-more {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.see-more p {
+    color: rgba(224, 44, 109, 0.87);
+}
+
+.see-more p .fa-arrow-right {
+    color: rgba(224, 44, 109, 0.87);
+}
+
+.collection-name {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.price {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.collection-info {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    margin-top: 5px;
+}
+
+.fa-star-half-stroke,
+.fa-star {
+    width: 11.07px;
+    height: 10.32px;
+    color: #fb8200;
+}
+
+.fa-star {
+    margin-right: 5px;
+}
+
+.fa-star-half-stroke {
+    margin-right: 20px;
+}
+
+.rating {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5e6366;
+}
+
+/* Featured Products */
+.feature {
+    margin: 100px 165px;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-head {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0a0826;
+    margin-top: 5px;
+}
+
+.feature-p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6c6c6c;
+    margin: 16px 0;
+    width: 500px;
+}
+
+footer {
+    height: 240px;
+    width: 100%;
+    background: #0a0826;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    color: #ffffff;
+}
+
+.white {
+    color: #ffffff;
+    margin: 17px auto;
+}
+
+.icon {
+    /* gap: 30px; */
+    width: 176px;
+    margin: 0 auto;
+}
+
+.footer-h {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer-p {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 14px;
+}
