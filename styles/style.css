@@ -274,7 +274,7 @@ footer {
     }
     .clients {
         grid-template-columns: repeat(3, 1fr);
-        margin: 100px auto;
+        margin: 100px 20px;
     }
     .popular-collections {
         margin: 0;
@@ -284,7 +284,7 @@ footer {
         width: 100%;
     }
     .feature {
-        margin: 100px 0;
+        margin: 100px 20px;
     }
     .main-camera {
         height: auto;
@@ -293,5 +293,16 @@ footer {
     .banner {
         margin-right: 0px;
         margin-left: 0px;
+        margin: 0 20px;
+    }
+    .header-containier {
+        margin: 80px auto;
+    }
+    .popular-heading {
+        font-size: 18px;
+    }
+    .feature-head {
+        font-size: 24px;
+        text-align: center;
     }
 }
