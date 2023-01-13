@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif; */
     box-sizing: border-box;
     color: #3a3a3a;
     font-family: "Poppins", sans-serif;
-    /* border: 2px solid; */
+    border: 2px solid;
 }
 
 .flex {
@@ -274,7 +274,7 @@ footer {
     }
     .clients {
         grid-template-columns: repeat(3, 1fr);
-        margin: 100px 20px;
+        margin: 100px auto;
     }
     .popular-collections {
         margin: 0;
@@ -289,6 +289,7 @@ footer {
     .main-camera {
         height: auto;
         width: 100%;
+        object-fit: cover;
     }
     .banner {
         margin-right: 0px;
